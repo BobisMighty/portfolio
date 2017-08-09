@@ -1,0 +1,17 @@
+body {
+  background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/iss052e027076.jpg");
+  
+}
+
+h1 {
+    color: white;
+  font-family: arial;
+  font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: arial;
+    font-size: 20px;
+  text-align: center;
+}
