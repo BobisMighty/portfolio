@@ -1,17 +1,65 @@
+.nav-pills{
+  font-size: 16px;
+  background-color:black;
+  opacity:.7;
+}
+
 body {
-  background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/iss052e027076.jpg");
+    font-family: 'Roboto';
+  color: white;
+  background-color:black;
   
 }
-
-h1 {
-    color: white;
-  font-family: arial;
-  font-size: 40px;
-    text-align: center;
+h1{
+  font-size:5em;
+  padding: 0;
+  mastin-top:0px;
+}
+.btn-default{
+  background-color:black;
+  border-color:black;
+  color:#337ab7;
+  font-size:1.7em;
+   opacity:.7;
+}
+#twittericon{
+  color: rgb(0, 172, 237);
+}
+#githubicon{
+  color: rgb(102, 43, 129);
+}
+#linkedinicon{
+  color: rgb(0, 127, 178);
+}
+#instaicon{
+  colol: rgb(188, 42, 141);
+}
+.block{
+  background:black;
+  opacity:.7;
+  padding:10px;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:10px;
+  margin-top:auto;
+  margin-bottom:auto;
 }
 
-p {
-    font-family: arial;
-    font-size: 20px;
-  text-align: center;
+.pageOne{
+  background:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/iss052e027076.jpg");
+  background-size:cover;
+  height: 800px;
 }
+
+.pageTwo{
+  background:url("https://images-assets.nasa.gov/image/iss050e066094/iss050e066094~orig.jpg");
+      background-size:cover;
+  height: 800px;
+  padding-top:1%;
+}
+p{
+  font-size:2.0em
+}
+.me{
+height:400px;}
