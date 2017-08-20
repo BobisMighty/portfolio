@@ -1,17 +1,22 @@
 .nav-pills{
-  font-size: 16px;
+  font-size: 14.5px;
   background-color:black;
   opacity:.7;
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
   color: white;
   background-color:black;
   
 }
 h1{
   font-size:5em;
+  padding: 0;
+  mastin-top:0px;
+}
+h2{
+  font-size:3em;
   padding: 0;
   mastin-top:0px;
 }
@@ -49,7 +54,7 @@ h1{
 .pageOne{
   background:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/iss052e027076.jpg");
   background-size:cover;
-  height: 800px;
+  padding-bottom:10%;
 }
 
 .pageTwo{
@@ -62,4 +67,45 @@ p{
   font-size:2.0em
 }
 .me{
-height:400px;}
+height:400px;
+}
+
+.paddingTop{
+  padding-top:2%;
+  padding-bottom:2%;
+}
+.pageThree{
+  background:url("https://www.nasa.gov/sites/default/files/images/738475main_8601843216_1dc787a335_o-full_full.jpg");
+      background-size:cover;
+  height: 800px;
+  padding-top:1%;
+}
+.pageFour{
+   position: relative;
+    overflow: hidden;
+        background-size:cover;
+  height: 1200px;
+  padding-top:1%;
+}
+  .pageFour:before
+{
+   content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url("https://images-assets.nasa.gov/image/iss050e066094/iss050e066094~orig.jpg") 0 0 repeat;
+ -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pageFive{
+  background: url("https://apod.nasa.gov/apod/image/0909/milkywaypan_brunier_2048.jpg");
+  background-size:cover;
+  height: 200px;
+  padding-top:1%;
+}
